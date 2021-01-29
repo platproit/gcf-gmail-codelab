@@ -12,6 +12,7 @@
   "dependencies": {
     "@google-cloud/express-oauth2-handlers": "^0.1.2",
     "express": "^4.17.1",
+    "google-auth-library": "^6.1.6",
     "googleapis": "^67.0.0"
   }
 }
