@@ -1,17 +1,17 @@
 {
   "name": "gcf-gmail-codelab-auth",
   "version": "1.0.0",
-  "description": "",
+  "description": "intelligent email",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/googlecodelabs/gcf-gmail-codelab.git"
   },
-  "author": "",
+  "author": "Google",
   "license": "Apache-2.0",
   "dependencies": {
     "@google-cloud/express-oauth2-handlers": "^0.1.2",
-    "express": "^4.16.4",
-    "googleapis": "^37.2.0"
+    "express": "^4.17.1",
+    "googleapis": "^67.0.0"
   }
 }
