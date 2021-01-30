@@ -11,10 +11,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@google-cloud/express-oauth2-handlers": "^0.1.2",
-    "axios": "^0.21.1",
+    "@google-cloud/promisify": "^2.0.3",
     "express": "^4.17.1",
-    "google-auth-library": "^6.1.6",
-    "googleapis": "^67.0.0",
-    "node-forge": "^0.10.0"
+    "googleapis": "^67.0.0"
   }
 }

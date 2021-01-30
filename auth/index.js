@@ -1,9 +1,9 @@
 // express-oauth is a Google-provided, open-source package that helps automate
 // the authorization process.
-const Auth = require('@google-cloud/express-oauth2-handlers');
+import Auth from '@google-cloud/express-oauth2-handlers';
 // googleapis is the official Google Node.js client library for a number of
 // Google APIs, including Gmail.
-const {google} = require('googleapis');
+import { google } from 'googleapis';
 const gmail = google.gmail('v1');
 
 // Specify the access scopes required. If authorized, Google will grant your
@@ -67,6 +67,5 @@ const onFailure = (err, req, res) => {
   res.send(`An error has occurred in the authorization process.`);
 };
 
-// Export the Cloud Functions for authorization.
-exports.auth_init = auth.routes.init;
-exports.auth_callback = auth.routes.cb(onSuccess, onFailure);
+export const auth_init = auth.routes.init;
+export const auth_callback = auth.routes.cb(onSuccess, onFailure);
