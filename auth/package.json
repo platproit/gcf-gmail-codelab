@@ -1,6 +1,6 @@
 {
-  "name": "gcf-gmail-codelab-auth",
-  "version": "1.0.0",
+  "name": "virtu-tech-ai",
+  "version": "2.0.1",
   "description": "intelligent email",
   "main": "index.js",
   "repository": {
@@ -10,9 +10,17 @@
   "author": "Google",
   "license": "Apache-2.0",
   "dependencies": {
-    "@google-cloud/express-oauth2-handlers": "^0.1.2",
-    "@google-cloud/promisify": "^2.0.3",
+    "@google-cloud/cloudbuild": "^2.0.6",
+    "@google-cloud/datastore": "^6.3.1",
+    "@google-cloud/debug-agent": "^5.1.3",
+    "@google-cloud/error-reporting": "^2.0.1",
+    "@google-cloud/pubsub": "^2.8.0",
+    "@google-cloud/secret-manager": "^3.4.0",
+    "@google-cloud/storage": "^5.7.4",
+    "@google-cloud/trace-agent": "^5.1.3",
     "express": "^4.17.1",
-    "googleapis": "^67.0.0"
+    "google-auth-library": "^7.0.1",
+    "googleapis": "^67.0.0",
+    "npm": "^7.5.3"
   }
 }
