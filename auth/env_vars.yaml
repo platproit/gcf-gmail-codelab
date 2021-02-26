@@ -1,4 +1,4 @@
-GOOGLE_CLIENT_ID: 556592517943-dei61ssl622ofqi194aanvj1qag1730o.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET: NDS2AVHCrODjzeo0JZliwA-5
-GOOGLE_CALLBACK_URL: https://iap.googleapis.com/v1/oauth/clientIds/556592517943-dei61ssl622ofqi194aanvj1qag1730o.apps.googleusercontent.com:handleRedirect
-PUBSUB_TOPIC: gmail-watch
+GOOGLE_CLIENT_ID: 
+GOOGLE_CLIENT_SECRET: 
+GOOGLE_CALLBACK_URL: 
+PUBSUB_TOPIC:
